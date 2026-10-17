@@ -1,8 +1,8 @@
 {
-  "name": "toooooon",
+  "name": "to_on",
   "private": true,
   "workspaces": [
-    "apps/*"
+    "apps/web/*"
   ],
   "scripts": {
     "prepare": "husky"

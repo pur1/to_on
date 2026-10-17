@@ -7,6 +7,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import Layout from "./components/layout/Layout";
 import "./index.css";
+import "./lib/i18n";
 
 const queryClient = new QueryClient();
 
