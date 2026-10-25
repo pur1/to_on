@@ -1,0 +1,11 @@
+{
+  "books": "หนังสือ",
+  "settings": "ตั้งค่า",
+  "language": "ภาษา",
+  "languageDescription": "เลือกภาษาที่ใช้แสดงผลใน Creator Studio",
+  "identifier": "อีเมลหรือชื่อผู้ใช้",
+  "password": "รหัสผ่าน",
+  "login": "เข้าสู่ระบบ",
+  "noAccount": "ยังไม่มีบัญชี?",
+  "register": "สมัครสมาชิก"
+}
