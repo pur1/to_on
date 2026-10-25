@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import Layout from "./components/layout/Layout";
+import GuestOnly from "./components/auth/GuestOnly";
 import "./index.css";
 import "./lib/i18n";
 
@@ -19,8 +20,10 @@ createRoot(document.getElementById("root")!).render(
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
           </Route>
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
+          <Route element={<GuestOnly />}>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/register" element={<RegisterPage />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>
