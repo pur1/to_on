@@ -1,0 +1,21 @@
+{
+  "name": "@to-on/i18n",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@to-on/ui": "workspace:*",
+    "i18next": "^26.4.7",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "react-i18next": "^17.0.20"
+  },
+  "peerDependencies": {
+    "react": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18"
+  }
+}
