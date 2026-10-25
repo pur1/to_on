@@ -32,7 +32,7 @@ func run() error {
 	defer stop()
 
 	// Local dev only: missing files are ignored and real env vars are never overridden.
-	for _, f := range []string{"apps/api/.env", ".env"} {
+	for _, f := range []string{"apps/api/auth/.env", ".env"} {
 		_ = godotenv.Load(f)
 	}
 
